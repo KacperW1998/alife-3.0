@@ -1,0 +1,30 @@
+[
+  {
+    "id": "rookie_village",
+    "name": "Rookie Village",
+    "description": "A small settlement serving as a gateway to the Zone. Weathered stalkers gather around campfires, sharing stories and warnings. The air smells of smoke, radiation, and cheap vodka.",
+    "connected_to": ["cordon_checkpoint", "garbage"],
+    "danger_level": 2
+  },
+  {
+    "id": "cordon_checkpoint",
+    "name": "Cordon Military Checkpoint",
+    "description": "A heavily fortified checkpoint manned by military personnel. Concrete barriers and watch towers loom over the area. Soldiers eye you suspiciously as you approach.",
+    "connected_to": ["rookie_village", "dark_valley"],
+    "danger_level": 4
+  },
+  {
+    "id": "garbage",
+    "name": "Garbage",
+    "description": "A vast junkyard filled with rusted vehicles and industrial waste. The area is a known bandit hangout. Strange anomalies flicker between the piles of scrap metal.",
+    "connected_to": ["rookie_village", "dark_valley"],
+    "danger_level": 5
+  },
+  {
+    "id": "dark_valley",
+    "name": "Dark Valley",
+    "description": "A foreboding valley shrouded in mist. The abandoned factory complex looms in the distance. Rumors say that Professor Kalancha was last seen heading this way.",
+    "connected_to": ["cordon_checkpoint", "garbage"],
+    "danger_level": 7
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "medkit": {
+    "name": "Medkit",
+    "description": "Standard Zone medical kit. Contains bandages, painkillers, and anti-radiation drugs.",
+    "use_effect": "Restores health"
+  },
+  "vodka": {
+    "name": "Vodka",
+    "description": "Cheap but effective. Helps with radiation but impairs coordination.",
+    "use_effect": "Reduces radiation, lowers accuracy"
+  },
+  "bread": {
+    "name": "Stale Bread",
+    "description": "Basic sustenance. Doesn't taste great but keeps hunger at bay.",
+    "use_effect": "Slightly restores energy"
+  },
+  "detector": {
+    "name": "Echo Detector",
+    "description": "Basic anomaly and artifact detector. Beeps when near anomalous activity.",
+    "use_effect": "Helps locate artifacts"
+  }
+}

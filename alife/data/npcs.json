@@ -1,0 +1,56 @@
+[
+  {
+    "id": "wolf",
+    "static_traits": {
+      "name": "Wolf",
+      "faction": "Loners",
+      "role": "Veteran stalker",
+      "personality": "Helpful but cautious, values loyalty and honesty. Offers guidance to newcomers but doesn't trust easily.",
+      "appearance": "Weathered face with a long scar across his left cheek. Always wears a faded green stalker suit and keeps his rifle close."
+    },
+    "dynamic_state": {
+      "location": "rookie_village",
+      "inventory": ["PM pistol", "medkit", "vodka"],
+      "health": 85
+    },
+    "player_relationship": {
+      "trust_level": 3,
+      "friendship_level": 2,
+      "last_interaction_time": {"day": 1, "period": "morning"},
+      "key_interactions": []
+    },
+    "knowledge": {
+      "about_professor": "Saw him passing through to Dark Valley with scientific equipment about a week ago. He had military escorts.",
+      "will_share_when": {"trust_level": 5},
+      "about_stashes": ["There's an old supply cache near the car park in Garbage. Look for the blue barrel."],
+      "about_zone": ["Emissions have been more frequent lately. Something's stirring in the Zone."]
+    }
+  },
+  {
+    "id": "sidorovich",
+    "static_traits": {
+      "name": "Sidorovich",
+      "faction": "Trader",
+      "role": "Information broker and trader",
+      "personality": "Greedy and calculating but reliable for business. Values profit above all else but won't directly betray clients.",
+      "appearance": "Overweight, balding man who rarely leaves his bunker. Usually seen behind his trading counter, surrounded by rare artifacts and equipment."
+    },
+    "dynamic_state": {
+      "location": "rookie_village",
+      "inventory": ["rare artifacts", "weapons", "equipment", "medical supplies"],
+      "health": 70
+    },
+    "player_relationship": {
+      "trust_level": 2,
+      "friendship_level": 1,
+      "last_interaction_time": {"day": 1, "period": "morning"},
+      "key_interactions": []
+    },
+    "knowledge": {
+      "about_professor": "Kalancha was working on something big - consciousness transfer using artifacts. Very dangerous research that has many factions interested.",
+      "will_share_when": {"trust_level": 4, "price": 5000},
+      "about_military": ["The military has been unusually active lately, especially around Dark Valley. They're looking for something... or someone."],
+      "about_lockbox": ["Lockbox Protocol is the codename for the professor's research. It's supposed to store human consciousness in artifacts."]
+    }
+  }
+]
